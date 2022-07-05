@@ -111,9 +111,7 @@ h1, h2, h3, p {
 .hero {
   background-color: var(--hero-bcg-cl);
   }
-  .hero-box {
-    height: 600px;
-  }
+
 
 .hero-title {
   font-weight: 900;
