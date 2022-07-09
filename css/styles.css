@@ -314,6 +314,9 @@ margin-right: 50px;
 .team-descr {
   padding: 30px 15px;
   
+  background-color: #FFFFFF;
+  border-radius: 0px 0px 4px 4px;
+  
 }
 
 .team-name {
