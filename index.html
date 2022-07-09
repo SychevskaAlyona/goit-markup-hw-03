@@ -13,15 +13,16 @@
    <!-- Шрифты end-->    
    <!-- Нормализация -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+   <!-- Нормализация end -->
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!--Шапка страницы-->
     <header class="header">
-      <div class="container one">
+      <div class="container header-box">
         <!--Навигация-->
         <nav class="header-nav">
-          <a href="" class="logo link">Web<spa class="dark-logo">Studio</span></a>
+          <a href="./index.html" class="header-logo link">Web<spa class="dark-logo">Studio</span></a>
           <ul class="header-list list">
             <li class="header-item">
               <a class="header-link link current" href="./index.html">Студия</a>
@@ -48,7 +49,7 @@
     <!--Главный контент-->
     <main>
       <!--Главный баннер-->
-      <section class="hero">
+      <section class="hero section">
             <div class="container">
               <h1 class="hero-title">
               Эффективные решения <br />
@@ -58,39 +59,39 @@
             </div>            
       </section>
       <!--Преимущества работы-->
-      <section class="features">
+      <section class="features section">
       <div class="container">
-          <h2 hidden>Наши преимущества</h2>
+          <h2 class="visually-hidden">Наши преимущества</h2>
           <ul class="features-list list">
             <li class="features-item">
               <h3 class="features-name">Внимание к деталям</h3>
               <p class="features-txt">
-                Идейные соображения, а также <br />
-                начало повседневной работы по <br />
+                Идейные соображения, а также 
+                начало повседневной работы по 
                 формированию позиции.
               </p>
             </li>
             <li class="features-item">
               <h3 class="features-name">Пунктуальность</h3>
               <p class="features-txt">
-                Задача организации, в особенности <br />
-                же рамки и место обучения кадров <br />
+                Задача организации, в особенности 
+                же рамки и место обучения кадров 
                 влечет за собой.
               </p>
             </li>
             <li class="features-item">
               <h3 class="features-name">Планирование</h3>
               <p class="features-txt">
-                Равным образом консультация с <br />
-                широким активом в значительной <br />
+                Равным образом консультация с 
+                широким активом в значительной 
                 степени обуславливает.
               </p>
             </li>
             <li class="features-item">
               <h3 class="features-name">Современные технологии</h3>
               <p class="features-txt">
-                Значимость этих проблем настолько <br />
-                очевидна, что реализация плановых <br />
+                Значимость этих проблем настолько 
+                очевидна, что реализация плановых 
                 заданий.
               </p>
             </li>
@@ -98,7 +99,7 @@
       </div>
       </section>
       <!--Направления работы -->
-      <section class="work">
+      <section class="work section">
         <div class="container">
           <h2 class="work-title">Чем мы занимаемся</h2>
           <ul class="work-list list">
@@ -115,29 +116,37 @@
         </div>       
       </section>
       <!--Команда-->
-      <section class="team">
-        <div class="container one">
+      <section class="team section">
+        <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list list">
             <li class="team-item">
               <img src="./images/team1.jpg" alt="Фото члена команды" width="270" />
-              <h3 class="team-name">Игорь Демьяненко</h3>
-              <p class="team-txt" lang="en">Product Designer</p>
+              <div class="team-descr">
+                <h3 class="team-name">Игорь Демьяненко</h3>
+                <p class="team-txt" lang="en">Product Designer</p>
+              </div>
             </li>
             <li class="team-item">
               <img src="./images/team2.jpg" alt="Фото члена команды" width="270" />
-              <h3 class="team-name">Ольга Репина</h3>
-              <p class="team-txt" lang="en">Frontend Developer</p>
+              <div class="team-descr">
+                <h3 class="team-name">Ольга Репина</h3>
+                <p class="team-txt" lang="en">Frontend Developer</p>
+              </div>
             </li>
             <li class="team-item">
               <img src="./images/team3.jpg" alt="Фото члена команды" width="270" />
-              <h3 class="team-name">Николай Тарасов</h3>
-              <p class="team-txt" lang="en">Marketing</p>
+              <div class="team-descr">
+                <h3 class="team-name">Николай Тарасов</h3>
+                <p class="team-txt" lang="en">Marketing</p>
+              </div>
             </li>
             <li class="team-item">
               <img src="./images/team4.jpg" alt="Фото члена команды" width="270" />
-              <h3 class="team-name">Михаил Ермаков</h3>
-              <p class="team-txt" lang="en">UI Designer</p>
+              <div class="team-descr">
+                <h3 class="team-name">Михаил Ермаков</h3>
+                <p class="team-txt" lang="en">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>        
@@ -146,7 +155,7 @@
     <!--Футер страницы-->
     <footer class="footer">
       <div class="container">
-        <a class="logo link" href="">Web<span class="light-logo">Studio</span></a>
+        <a class="footer-logo link" href="./index.html">Web<span class="light-logo">Studio</span></a>
         <address class="address">
           <p class="main-address">г. Киев, пр-т Леси Украинки, 26</p>
           <ul class="address-list list">
