@@ -188,6 +188,9 @@ margin-right: 50px;
 /* -----------------------Main Page Styles--------------------- */
 /* Hero section */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
+
   background-color: var(--hero-bcg-cl);
   text-align: center;
   }
@@ -247,12 +250,12 @@ margin-right: 50px;
   display: flex;
 }
 
-.features-item:not(:last-child) {
-  margin-right: 30px;
+.features-item {
+  width: 270px;
 }
 
-.features-txt {
-  width: 270px;
+.features-item:not(:last-child) {  
+  margin-right: 30px;
 }
 
 .features-name {
@@ -371,9 +374,9 @@ margin-right: 50px;
   margin-right: 8px;
 }
 
-.portfolio-box {
-  padding-top: 56px;
-  padding-bottom: 133px;
+.portfolio-main {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-list {
